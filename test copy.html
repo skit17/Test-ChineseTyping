@@ -8,18 +8,19 @@
     </style>
 </head>
 <body>
+    <center>
     <div id="main-menu">
-        <h1>Welcome to the Typing Game</h1>
-        <button onclick="startGame()">Start</button>
+        <h1 style="font-size:60px;">Welcome to the Typing Game</h1>
+        <button onclick="startGame()"; style="font-size:40px;">Start</button>
     </div>
 
     <div id="game" style="display: none;">
-        <h1>Typing Game</h1>
-        <p id="word"></p>
+        <h1 style="font-size:60px;">Typing Game</h1>
+        <p id="word"; style="font-size:40px;"></p>
         <input type="text" id="answer">
-        <button onclick="checkAnswer()">Submit</button>
-        <p id="result"></p>
-        <button onclick="nextWord()">Next</button>
+        <button onclick="checkAnswer()"; style="font-size:40px;">Submit</button>
+        <p id="result"; style="font-size:40px;"></p>
+        <button onclick="nextWord()"; style="font-size:40px;">Next</button>
     </div>
 
     <script>
@@ -71,5 +72,6 @@
             showNextWord();
         }
     </script>
+    </center>
 </body>
 </html>
